@@ -1,0 +1,31 @@
+.dragSrc	{
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	border: 1px solid black;
+	margin: 10px;
+	padding-top: 10px;
+	float: left;
+
+}
+
+#drag-target	{
+	width: 300px;
+	height: 30px;
+	border: 3px dashed black;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.start	{
+	opacity: 0.5;
+	background-color: violet;
+}
+
+.enter	{
+	opacity: 0.3;
+	background-color: green;
+}
