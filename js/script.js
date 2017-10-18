@@ -9,9 +9,9 @@ function handleStart(e){
 
 function handleEnd(e){
 	e.stopPropagation();
-	e.target.classList.remove("start");
-	e.target.innerHTML = "";
-	e.target.style.border = "none";
+	if(e.currentTarget!=e.target){
+		document.getElementById("draggables").removeChild(e.target);
+	}
 }
 
 function handleEnterLeave(e){
